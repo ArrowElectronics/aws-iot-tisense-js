@@ -33,8 +33,7 @@
     "mocha": "*",
     "randomr": "2.1.x",
     "sinon": "*",
-    "sinon-chai": "*",
-     "readable-stream":"1.1.x"
+    "sinon-chai": "*"
   },
   "dependencies": {
     "aws-sdk": "^2.2.16",
