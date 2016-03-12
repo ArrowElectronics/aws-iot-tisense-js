@@ -238,7 +238,7 @@ if [ -d "$BASE_DEVICE_DIR/$ARROW_DIR/$ARROW_APPLICATION" ]; then
     
 	npm install ../config
     #installed globally already
-	npm install -g grunt-cli
+	sudo npm install -g grunt-cli
 	npm install
 	grunt create
 
