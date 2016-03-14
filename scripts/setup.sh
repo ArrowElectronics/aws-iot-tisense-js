@@ -240,7 +240,7 @@ if [ -d "$BASE_DEVICE_DIR/$ARROW_DIR/$ARROW_APPLICATION" ]; then
     sudo npm config set prefix /usr/local
     
     #installed globally already
-	sudo npm install grunt-cli grunt -g
+	sudo npm install -g grunt-cli grunt 
 	npm install
     
     export NODE_PATH=lib
