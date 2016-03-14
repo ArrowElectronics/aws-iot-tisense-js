@@ -45,6 +45,8 @@
     "dynamodb-doc": "^1.0.0",
     "jsonschema": "^1.0.2",
     "uuid": "^2.0.1",
-    "readable-stream":"1.1.x"
+    "readable-stream":"1.1.x",
+    "lodash":"4.6.x",
+    "graceful-fs":"4.1.x"
   }
 }

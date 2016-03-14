@@ -234,12 +234,16 @@ if [ -d "$BASE_DEVICE_DIR/$ARROW_DIR/$ARROW_APPLICATION" ]; then
 	echo -e "***Modifying Amazon lambda functions..."
 	#Lambda function management
 	cd lambda
-    export NODE_PATH=lib
     
 	npm install ../config
+    #reset the prefix path
+    sudo npm config set prefix /usr/local
+    
     #installed globally already
-	sudo npm install -g grunt-cli
+	sudo npm install grunt-cli grunt -g
 	npm install
+    
+    export NODE_PATH=lib
 	grunt create
 
 	###do a check
