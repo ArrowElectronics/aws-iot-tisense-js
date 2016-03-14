@@ -39,7 +39,7 @@
     "noble-device" : "1.1.x",
     "sensortag" : "1.2.x",
     "eslint": "1.4.x",
-    "async": "~0.2.7",
+    "async": "1.5.x",
     "aws-iot-device-sdk":"1.0.x",
     "curlrequest":"0.5.x",
     "delayed":"1.0.x"
